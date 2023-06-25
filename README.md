@@ -21,7 +21,8 @@ This is a Python script that obfuscates Python code for protection. The script u
 ## Example
 Let's say we have a Python file named example.py with the following content:
 
-python```
+python
+```
 Copy code
 import math
 
