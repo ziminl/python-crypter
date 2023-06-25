@@ -53,8 +53,12 @@ cipher_suite = Fernet(decryption_key)
 decrypted_data = cipher_suite.decrypt(encrypted_data)
 decompressed_data = zlib.decompress(decrypted_data).decode()
 exec(decompressed_data)
-The obfuscated code includes random junk code, the imported module math, and the original code. The obfuscated code is saved as obfuscated_example.py.
 ```
+The obfuscated code includes random junk code, the imported module math, and the original code. The obfuscated code is saved as obfuscated_example.py.
+
+
+
+
 
 Please note that while this script provides a level of obfuscation, it is not foolproof and may be possible to reverse engineer or understand the code with enough effort and analysis. its only for testing and education purpose. hope u be a nice security guy.
 
