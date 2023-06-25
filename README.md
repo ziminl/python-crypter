@@ -13,6 +13,15 @@ This is a Python script that obfuscates Python code for protection. The script u
 
 - **Random Junk Code Injection:** Random junk code is generated and injected into the obfuscated code. This includes creating random variables with random values, adding extra code to confuse readers.
 
+## Each Crypting Algorithms
+> Base64 Encoding: Base64 encoding is used to obfuscate the original code by converting it into a text format that consists of ASCII characters.
+
+Zlib Compression: The zlib library is used to compress the obfuscated code, reducing its size and making it harder to analyze.
+
+Marshal: The marshal module is used to serialize the obfuscated code into a binary format, making it more challenging to read and understand.
+
+Fernet Encryption: The Fernet encryption algorithm, provided by the cryptography library, is used to encrypt the obfuscated code. Fernet uses symmetric key cryptography with AES-128 in CBC mode and HMAC using SHA256 for authentication.
+
 ## Usage
 
 > python main.py
