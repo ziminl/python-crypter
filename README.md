@@ -26,7 +26,8 @@ Fernet Encryption: The Fernet encryption algorithm, provided by the cryptography
 ## Usage
 
 > python main.py
-
+or to use flask,
+> python app.py 
 
 ## Example
 Let's say we have a Python file named example.py with the following content:
