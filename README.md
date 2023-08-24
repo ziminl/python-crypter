@@ -73,6 +73,6 @@ The obfuscated code includes random junk code, the imported module math, and the
 
 
 
-Please note that while this script provides a level of obfuscation, it is not foolproof and may be possible to reverse engineer or understand the code with enough effort and analysis. its only for testing and education purpose. hope u be a nice security guy.
+Please note that while this script provides a level of obfuscation, it is not foolproof and may be possible to reverse engineer or understand the code with enough effort and analysis. its only for testing and education purpose. hope u be a nice security guy!!!!
 
 
